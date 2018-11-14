@@ -1,0 +1,18 @@
+.gallery {
+    text-align: center;
+}
+
+.gallery h1 {
+    font-size: 2rem;
+}
+
+.gallery-images img{
+    width: 30%;
+    transition: transform 1s; /* Animation */
+    margin: .4rem;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.05);
+    box-shadow: var(--default-box-shadow);
+}
