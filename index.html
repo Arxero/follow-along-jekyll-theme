@@ -3,14 +3,17 @@ layout: site
 ---
 
 
-<h2>index.html</h2>
+<h2>RECENT POSTS</h2>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, rem? Delectus, deserunt? Dolores neque
+    exercitationem voluptatibus minus iure dolorem accusamus, sunt odio delectus voluptates esse nisi laudantium
+    architecto obcaecati adipisci.</p>
 <ul class="listing posts">
-	{% for post in site.posts %}
-	<li>
-		<a href="{{ site.baseurl }}{{ post.url }}">
-			<span class="title">{{ post.title }}</span>
-			<span class="date">{{ post.date | date_to_string }}</span>
-		</a>
-	</li>
-	{% endfor %}
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+            <span class="title">{{ post.title }}</span>
+            <span class="date">{{ post.date | date_to_string }}</span>
+        </a>
+    </li>
+    {% endfor %}
 </ul>

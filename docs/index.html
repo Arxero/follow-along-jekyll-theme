@@ -1,23 +1,53 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/follow-along-jekyll-theme/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Home</h1>
-    <h2>index.html</h2>
+    <div class="site">
+        <input type="checkbox" name="nav-toggle" id="nav-toggle">
+        <header>
+            <p class="site-title"><a href="/">follow along</a></p>
+            <label for="nav-toggle" id="toggle"><i class="fas fa-bars"></i></label>
+            <nav>
+                <ul>
+                    <li><a href="/blog.html"><i class="far fa-newspaper"></i>blog</a></li>
+                    <li><a href="/gallery.html"><i class="far fa-images"></i>gallery</a></li>
+                    <li><a href="#"><i class="fas fa-info-circle"></i>about</a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i>contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>RECENT POSTS</h2>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, rem? Delectus, deserunt? Dolores neque
+    exercitationem voluptatibus minus iure dolorem accusamus, sunt odio delectus voluptates esse nisi laudantium
+    architecto obcaecati adipisci.</p>
 <ul class="listing posts">
-	
-	<li>
-		<a href="/follow-along-jekyll-theme/jekyll/update/2018/11/13/welcome-to-jekyll.html">
-			<span class="title">Welcome to Jekyll!</span>
-			<span class="date">13 Nov 2018</span>
-		</a>
-	</li>
-	
+    
+    <li>
+        <a href="/jekyll/update/2018/11/13/welcome-to-jekyll.html">
+            <span class="title">Welcome to Jekyll!</span>
+            <span class="date">13 Nov 2018</span>
+        </a>
+    </li>
+    
+    <li>
+        <a href="/2018/11/08/first-post-for-testing.html">
+            <span class="title">First Post for thesting the theme</span>
+            <span class="date">08 Nov 2018</span>
+        </a>
+    </li>
+    
 </ul>
+        </main>
+        <footer></footer>
+    </div>
 </body>
+
 </html>

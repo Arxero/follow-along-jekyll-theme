@@ -1,0 +1,17 @@
+@import 'https://use.fontawesome.com/releases/v5.5.0/css/all.css';
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import './variables';
+@import './reset';
+@import './typography';
+@import './navigation';
+body {
+    background: #111111;
+    color: var(--text-main-color);
+    max-width: 65rem;
+    margin: 0 auto;
+}
+
+.site {
+    background: #222222;
+    padding: 0.7rem 2rem;
+}
